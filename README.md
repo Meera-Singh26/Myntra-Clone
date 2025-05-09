@@ -1,2 +1,2 @@
 # Myntra-Clone
-A clone of Myntra shopping app
+A clone of Myntra a shopping app

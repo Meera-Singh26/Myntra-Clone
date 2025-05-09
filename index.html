@@ -26,25 +26,30 @@
             <a href="#">Studio <sup>New</sup></a>
             <a href="#">Beauty</a>
         </nav>
+
         <div class="search_bar">
-            <span class="material-symbols-outlined search_icon"> search </span>
-            <input type="text" placeholder="Search for products, brands and more" class="search_input">
-        </div>
+            <form action="/search" method="GET">
+              <span class="material-symbols-outlined search_icon">search</span>
+              <input type="text" name="q" placeholder="Search for products, brands and more" class="search_input">
+            </form>
+          </div>
+          
+        
 
         <div class="action_bar">
-            <div class="action_container">
+            <a href="/profile" class="action_container">
                 <span class="material-symbols-outlined
                  action_icon">person </span>
                 <span class="action_name">Profile</span>   
-            </div>
+            </a>
 
-            <div class="action_container">
+            <a href="/wishlist" class="action_container">
                 <span class="material-symbols-outlined
                  action_icon">favorite </span>
                 <span class="action_name">Wishlist</span>   
-            </div>
+            </a>
 
-            <div class="action_container">
+            <a href="/bag" class="action_container">
                 <span class="material-symbols-outlined 
                 action_icon">shopping_bag</span>
                 <span class="action_name">Bag</span>   
@@ -60,7 +65,7 @@
 
 
 
-        <div class="category_heading">Meadal worthy Brands To Bag</div>
+        <div class="category_heading">Medal worthy Brands To Bag</div>
         <div class="category_items">
             <a href="#"><img src="C:\Users\HP\Document\apna college web development\Myntra clone\1.png" class="sale_item"></a>
             <a href="#"><img src="C:\Users\HP\Document\apna college web development\Myntra clone\2.png" class="sale_item"></a>

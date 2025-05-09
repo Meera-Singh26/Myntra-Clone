@@ -26,16 +26,37 @@ header{
 .action{
     margin-right: 4%;
 }
+
+.action_container a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .action_name {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
 .navbar{
     display: flex;
     min-width: 500px;
     justify-content: space-evenly;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
 .navbar a{
     font-size: 14px;
     letter-spacing: .3px;
-    color: #282c3f;
+    color: inherit;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
@@ -82,10 +103,24 @@ header{
     border-radius: 7px 7px 7px 7px;
     border: 0;
 }
+
+
+.search_bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search_input {
+    border: none;
+    outline: none;
+  }
+  
 .action_bar{
     display: flex;
     min-width: 200px;
     justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
     
 }
 .action_container{
@@ -117,6 +152,7 @@ header{
     display: flex;
     flex-wrap: wrap; /* wrap the content in the line used when we resize the window it will automatic resize*/
     justify-content: space-evenly; 
+    text-decoration: none;
     
 
 }

@@ -1,0 +1,23 @@
+{
+  "name": "myntra-clone",
+  "version": "1.0.0",
+  "description": "A clone of Myntra a shopping app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meera-Singh26/Myntra-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meera-Singh26/Myntra-Clone/issues"
+  },
+  "homepage": "https://github.com/Meera-Singh26/Myntra-Clone#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
